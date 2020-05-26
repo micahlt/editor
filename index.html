@@ -8,7 +8,8 @@
 <title>GrooveProgramming - Editor</title>
 </head>
 <body>
-<div id="blocklyDiv" style="width:1400px;height:800px"></div>
+  <p><button onclick="runCode()">Run JavaScript</button></p>
+  <div id="blocklyDiv" style="width:1400px;height:800px"></div>
   <xml id="toolbox" style="display: none">
   <category name="Colour">
   <block type="colour_picker"></block> // Picks the color
@@ -86,12 +87,18 @@
           colour: '#ccc',
           snap: true},
      trashcan: true});
-var code = Blockly.JavaScript.workspaceToCode(workspace);
-  try {
-  eval(code);
-} catch (e) {
-  alert(e);
-}
+function runCode() {
+      window.LoopTrap = 1000;
+      Blockly.JavaScript.INFINITE_LOOP_TRAP =
+          'if (--window.LoopTrap == 0) throw "Infinite loop.";\n';
+      var code = Blockly.JavaScript.workspaceToCode(demoWorkspace);
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      try {
+        eval(code);
+      } catch (e) {
+        alert(e);
+      }
+    }
 </script>
 </body>
-</html>
+</html>  
