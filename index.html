@@ -86,6 +86,12 @@
           colour: '#ccc',
           snap: true},
      trashcan: true});
+var code = Blockly.JavaScript.workspaceToCode(workspace);
+  try {
+  eval(code);
+} catch (e) {
+  alert(e);
+}
 </script>
 </body>
 </html>
