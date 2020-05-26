@@ -71,7 +71,8 @@
   <block type="math_change"></block>
 </xml>
 <script>
-var workspace = Blockly.inject('blocklyDiv',
+Blockly.Variables.createVariable(button.getTargetWorkspace(), null, 'panda');
+ var workspace = Blockly.inject('blocklyDiv',
     {toolbox: document.getElementById('toolbox'),
      grid:
          {spacing: 20,
