@@ -10,10 +10,13 @@
 <body>
 <div id="blocklyDiv" style="width:1400px;height:800px"></div>
   <xml id="toolbox" style="display: none">
+  <category name="Colour">
   <block type="colour_picker"></block> // Picks the color
   <block type="colour_random"></block>
   <block type="colour_rgb"></block>
   <block type="colour_blend"></block>
+  </category>
+  <category name="Lists">
   <block type="lists_create_empty"></block>
   <block type="lists_create_with"></block>
   <block type="lists_repeat"></block>
@@ -24,6 +27,8 @@
   <block type="lists_getSublist"></block>
   <block type="lists_sort"></block>
   <block type="lists_reverse"></block>
+  </category>
+  <category name="Logic">
   <block type="controls_if"></block>
   <block type="logic_operation"></block>
   <block type="logic_compare"></block>
@@ -35,6 +40,8 @@
   <block type="controls_whileUntil"></block>
   <block type="controls_for"></block>
   <block type="controls_forEach"></block>
+  </category>
+  <category name="Math">
   <block type="math_number"></block>
   <block type="math_arithmetic"></block>
   <block type="math_single"></block>
@@ -48,7 +55,8 @@
   <block type="math_random_int"></block>
   <block type="math_random_float"></block>
   <block type="math_atan2"></block>
-  <block type="procedures_ifreturn"></block>
+  </category>
+  <category name="Text">
   <block type="text"></block>
   <block type="text_multiline"></block>
   <block type="text_join"></block>
@@ -65,8 +73,7 @@
   <block type="text_count"></block>
   <block type="text_replace"></block>
   <block type="text_reverse"></block>
-  <category name="Variables" custom="VARIABLE"></category>
-  <category name="Functions" custom="PROCEDURE"></category>
+  </category>
 </xml>
 <script>
  var workspace = Blockly.inject('blocklyDiv',
