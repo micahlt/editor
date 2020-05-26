@@ -68,11 +68,10 @@
   <button text="Make Variable" callbackKey="createVariable"></button>
   <block type="variables_get"></block>
   <block type="variables_set"></block>
+    Blockly.Variables.createVariable(button.getTargetWorkspace(), null, 'panda');
   <block type="math_change"></block>
 </xml>
 <script>
-var name = prompt("Variable Name")
-Blockly.Variables.createVariable(button.getTargetWorkspace(), null, name);
 var workspace = Blockly.inject('blocklyDiv',
     {toolbox: document.getElementById('toolbox'),
      grid:
