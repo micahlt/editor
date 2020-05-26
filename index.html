@@ -70,9 +70,9 @@
   <block type="math_change"></block>
 </xml>
 <script>
-  var workspace = Blockly.inject('blocklyDiv',
-      {toolbox: document.getElementById('toolbox')});
-  zoom:
+var workspace = Blockly.inject('blocklyDiv',
+    {toolbox: document.getElementById('toolbox'),
+     zoom:
          {controls: true,
           wheel: true,
           startScale: 1.0,
@@ -80,11 +80,6 @@
           minScale: 0.3,
           scaleSpeed: 1.2},
      trashcan: true});
-  grid:
-         {spacing: 20,
-          length: 3,
-          colour: '#ccc',
-          snap: true},
 </script>
 </body>
 </html>
