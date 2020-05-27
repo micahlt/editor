@@ -8,16 +8,12 @@
 <title>GrooveProgramming - Editor</title>
 </head>
 <body>
-  <p><button onclick="runCode()">Run Code</button></p>
-  <div id="blocklyDiv" style="width:1400px;height:750px"></div>
+<div id="blocklyDiv" style="width:1400px;height:800px"></div>
   <xml id="toolbox" style="display: none">
-  <category name="Colour">
-  <block type="colour_picker"></block> // Picks the color
+  <block type="colour_picker"></block>
   <block type="colour_random"></block>
   <block type="colour_rgb"></block>
   <block type="colour_blend"></block>
-  </category>
-  <category name="Lists">
   <block type="lists_create_empty"></block>
   <block type="lists_create_with"></block>
   <block type="lists_repeat"></block>
@@ -28,8 +24,6 @@
   <block type="lists_getSublist"></block>
   <block type="lists_sort"></block>
   <block type="lists_reverse"></block>
-  </category>
-  <category name="Logic">
   <block type="controls_if"></block>
   <block type="logic_operation"></block>
   <block type="logic_compare"></block>
@@ -37,14 +31,10 @@
   <block type="logic_boolean"></block>
   <block type="logic_null"></block>
   <block type="logic_ternary"></block>
-  </category>
-  <category name="Control">
   <block type="controls_repeat_ext"></block>
   <block type="controls_whileUntil"></block>
   <block type="controls_for"></block>
   <block type="controls_forEach"></block>
-  </category>
-  <category name="Math">
   <block type="math_number"></block>
   <block type="math_arithmetic"></block>
   <block type="math_single"></block>
@@ -58,8 +48,7 @@
   <block type="math_random_int"></block>
   <block type="math_random_float"></block>
   <block type="math_atan2"></block>
-  </category>
-  <category name="Text">
+  <block type="procedures_ifreturn"></block>
   <block type="text"></block>
   <block type="text_multiline"></block>
   <block type="text_join"></block>
@@ -75,29 +64,9 @@
   <block type="text_prompt_ext"></block>
   <block type="text_count"></block>
   <block type="text_replace"></block>
+  <block type="text_reverse"></block>
+  <block type="variables_get"></block>
+  <block type="variables_set"></block>
+  <block type="math_change"></block>
 </xml>
-<script>
- var workspace = Blockly.inject('blocklyDiv',
-    {toolbox: document.getElementById('toolbox'),
-     grid:
-         {spacing: 20,
-          length: 3,
-          colour: '#ccc',
-          snap: true},
-     trashcan: true});
-
-  function runCode() {
-      window.LoopTrap = 1000;
-      Blockly.JavaScript.INFINITE_LOOP_TRAP =
-          'if (--window.LoopTrap == 0) throw "Infinite loop.";\n';
-      var code = Blockly.JavaScript.workspaceToCode(workspace);
-      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
-      try {
-        eval(code);
-      } catch (e) {
-        alert(e);
-      }
-    }
-</script>
-</body>
-</html>  
+<script>  var workspace = Blockly.inject('blocklyDiv',     {toolbox: document.getElementById('toolbox'),      grid:          {spacing: 20,           length: 3,           colour: '#ccc',           snap: true},      trashcan: true});    function runCode() {       window.LoopTrap = 1000;       Blockly.JavaScript.INFINITE_LOOP_TRAP =           'if (--window.LoopTrap == 0) throw "Infinite loop.";\n';       var code = Blockly.JavaScript.workspaceToCode(workspace);       Blockly.JavaScript.INFINITE_LOOP_TRAP = null;       try {         eval(code);       } catch (e) {         alert(e);       }     } </script>
