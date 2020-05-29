@@ -1,19 +1,15 @@
 ---
 name: Bug Report
-about: Create a report to help us improve
+about: Create a report to help us fix Groove
 labels: 'type: bug, triage'
 assignees: ''
 
 ---
 
 <!--
-  - Thanks for opening an issue for us!  Before you open an issue,
-  - please check if a similar issue exists or has been closed before.
-  -
-  - If you're asking a question about how to use Blockly in your application,
-  - please ask questions on the mailing list, instead of filing issues:
-  -       https://groups.google.com/forum/#!forum/blockly
-  -->
+  - Thanks for opening an issue for us!  Before you open an issue, please:
+  - Check if a similar issue exists or has been closed before.
+  - Check it is a bug.
 
 **Describe the bug**
 
@@ -22,6 +18,7 @@ assignees: ''
 **To Reproduce**
 
 <!-- Explain what someone needs to do in order to see what's described above -->
+
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
@@ -30,22 +27,15 @@ Steps to reproduce the behavior:
 
 **Expected behavior**
 
-<!-- A clear and concise description of what you expected to happen. -->
+<!-- A clear and concise description of what should happen-->
 
-**Screenshots**
-
-<!-- If applicable, add screenshots to help explain your problem. -->
-
-**Desktop (please complete the following information):**
+** Platform information **
+<!-- Include information on the platform(s) you found the bug on. -->
+ - Device: [e.g. iPhone6]
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
 
 **Stack Traces**
 

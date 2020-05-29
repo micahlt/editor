@@ -7,9 +7,8 @@ assignees: ''
 ---
 
 <!--
-  - Thanks for helping us improve our developer site documentation!
-  - Use this template to describe issues with the content at
-  - developers.google.com/blockly/guides
+  - Thanks for helping us improve our documentation!
+  - Use this template to describe issues with the content on our website
   -->
 
 **Where**
