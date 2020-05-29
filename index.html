@@ -1,107 +1,113 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src="blockly_compressed.js"></script>
-<script src="blocks_compressed.js"></script>
-<script src="msg/js/en.js"></script>
-<script src="javascript_compressed.js"></script>
-<title>GrooveProgramming - Editor</title>
- <link href="index.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-  <p><button id=button onclick="runCode()">Run Code</button></p>
-  <div id="blocklyDiv" style="width:1400px;height:730px"></div>
-  <xml id="toolbox" style="display: none">
-  <category name="Colour">
-  <block type="colour_picker"></block> // Picks the color
-  <block type="colour_random"></block>
-  <block type="colour_rgb"></block>
-  <block type="colour_blend"></block>
-  </category>
-  <category name="Lists">
-  <block type="lists_create_empty"></block>
-  <block type="lists_create_with"></block>
-  <block type="lists_repeat"></block>
-  <block type="lists_isEmpty"></block>
-  <block type="lists_indexOf"></block>
-  <block type="lists_getIndex"></block>
-  <block type="lists_setIndex"></block>
-  <block type="lists_getSublist"></block>
-  <block type="lists_sort"></block>
-  <block type="lists_reverse"></block>
-  </category>
-  <category name="Logic">
-  <block type="controls_if"></block>
-  <block type="logic_operation"></block>
-  <block type="logic_compare"></block>
-  <block type="logic_negate"></block>
-  <block type="logic_boolean"></block>
-  <block type="logic_null"></block>
-  <block type="logic_ternary"></block>
-  </category>
-  <category name="Control">
-  <block type="controls_repeat_ext"></block>
-  <block type="controls_whileUntil"></block>
-  <block type="controls_for"></block>
-  <block type="controls_forEach"></block>
-  </category>
-  <category name="Math">
-  <block type="math_number"></block>
-  <block type="math_arithmetic"></block>
-  <block type="math_single"></block>
-  <block type="math_constant"></block>
-  <block type="math_number_property"></block>
-  <block type="math_round"></block>
-  <block type="math_trig"></block>
-  <block type="math_on_list"></block>
-  <block type="math_modulo"></block>
-  <block type="math_constrain"></block>
-  <block type="math_random_int"></block>
-  <block type="math_random_float"></block>
-  <block type="math_atan2"></block>
-  </category>
-  <category name="Text">
-  <block type="text"></block>
-  <block type="text_multiline"></block>
-  <block type="text_join"></block>
-  <block type="text_append"></block>
-  <block type="text_length"></block>
-  <block type="text_isEmpty"></block>
-  <block type="text_indexOf"></block>
-  <block type="text_charAt"></block>
-  <block type="text_getSubstring"></block>
-  <block type="text_changeCase"></block>
-  <block type="text_trim"></block>
-  <block type="text_print"></block>
-  <block type="text_prompt_ext"></block>
-  <block type="text_count"></block>
-  <block type="text_replace"></block>
-  </category>
-  <category name="Variables" custom="VARIABLE"></category>
-     </category>
-</xml>
-<script>
- var workspace = Blockly.inject('blocklyDiv',
-    {toolbox: document.getElementById('toolbox'),
-     grid:
-         {spacing: 20,
-          length: 3,
-          colour: '#ccc',
-          snap: true},
-     trashcan: true});
+	<head>
+		<script src="blockly_compressed.js"></script>
+		<script src="blocks_compressed.js"></script>
+		<script src="msg/js/en.js"></script>
+		<script src="javascript_compressed.js"></script>
+		<title>Grove - Editor</title>
+		<link href="index.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="workspace">
+			<div id="menu">
+				<button id=button onclick="runCode()" style="width:100%;">Run Code</button>
+			</div>
+			<div id="codeArea">
+				<div id="blocklyDiv"></div>
+			</div>
+		</div>
+		<xml id="toolbox" style="display: none">
+			<category name="Colour">
+				<block type="colour_picker"></block> // Picks the color
+				<block type="colour_random"></block>
+				<block type="colour_rgb"></block>
+				<block type="colour_blend"></block>
+			</category>
+			<category name="Lists">
+				<block type="lists_create_empty"></block>
+				<block type="lists_create_with"></block>
+				<block type="lists_repeat"></block>
+				<block type="lists_isEmpty"></block>
+				<block type="lists_indexOf"></block>
+				<block type="lists_getIndex"></block>
+				<block type="lists_setIndex"></block>
+				<block type="lists_getSublist"></block>
+				<block type="lists_sort"></block>
+				<block type="lists_reverse"></block>
+			</category>
+			<category name="Logic">
+				<block type="controls_if"></block>
+				<block type="logic_operation"></block>
+				<block type="logic_compare"></block>
+				<block type="logic_negate"></block>
+				<block type="logic_boolean"></block>
+				<block type="logic_null"></block>
+				<block type="logic_ternary"></block>
+			</category>
+			<category name="Control">
+				<block type="controls_repeat_ext"></block>
+				<block type="controls_whileUntil"></block>
+				<block type="controls_for"></block>
+				<block type="controls_forEach"></block>
+			</category>
+			<category name="Math">
+				<block type="math_number"></block>
+				<block type="math_arithmetic"></block>
+				<block type="math_single"></block>
+				<block type="math_constant"></block>
+				<block type="math_number_property"></block>
+				<block type="math_round"></block>
+				<block type="math_trig"></block>
+				<block type="math_on_list"></block>
+				<block type="math_modulo"></block>
+				<block type="math_constrain"></block>
+				<block type="math_random_int"></block>
+				<block type="math_random_float"></block>
+				<block type="math_atan2"></block>
+			</category>
+			<category name="Text">
+				<block type="text"></block>
+				<block type="text_multiline"></block>
+				<block type="text_join"></block>
+				<block type="text_append"></block>
+				<block type="text_length"></block>
+				<block type="text_isEmpty"></block>
+				<block type="text_indexOf"></block>
+				<block type="text_charAt"></block>
+				<block type="text_getSubstring"></block>
+				<block type="text_changeCase"></block>
+				<block type="text_trim"></block>
+				<block type="text_print"></block>
+				<block type="text_prompt_ext"></block>
+				<block type="text_count"></block>
+				<block type="text_replace"></block>
+			</category>
+			<category name="Variables" custom="VARIABLE"></category>
+			</category>
+		</xml>
+		<script>
+			var workspace = Blockly.inject('blocklyDiv',
+				{toolbox: document.getElementById('toolbox'),
+				grid:
+					{spacing: 20,
+					length: 3,
+					colour: '#ccc',
+					snap: false},
+				trashcan: false});
 
-  function runCode() {
-      window.LoopTrap = 1000;
-      Blockly.JavaScript.INFINITE_LOOP_TRAP =
-          'if (--window.LoopTrap == 0) throw "Infinite loop.";\n';
-      var code = Blockly.JavaScript.workspaceToCode(workspace);
-      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
-      try {
-        eval(code);
-      } catch (e) {
-        alert(e);
-      }
-    }
-</script>
-</body>
+			function runCode() {
+				window.LoopTrap = 1000;
+				Blockly.JavaScript.INFINITE_LOOP_TRAP =
+					'if (--window.LoopTrap == 0) throw "Infinite loop.";\n';
+				var code = Blockly.JavaScript.workspaceToCode(workspace);
+				Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+				try {
+					eval(code);
+				} catch (e) {
+					alert(e);
+				}
+			}
+		</script>
+	</body>
 </html>  

@@ -13,4 +13,13 @@
 
 #button:hover { background-color: #3d9c40; }
 
+/* Removes padding from the page. */
+html, body, #workspace, #blocklyDiv{ padding: 0; margin: 0; height: 100%; width: 100%;}
 
+/* The workspace is a table for easy laying out of elements. */
+#workspace { display: table; }
+
+#menu, #codeArea { display: table-row; }
+
+/* Squish the menu */
+#codeArea { height: 100%; }
