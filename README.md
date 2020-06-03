@@ -1,10 +1,10 @@
 # Groove Editor
 
 Groove is a web-based, visual programming editor.  Users can create sprites and sounds and drag
-blocks together to build programs. The editor is forked from blockls, all other code is make from scratch.
+blocks together to build programs. The editor is forked from blocky, all other code is made from scratch.
 All code is free and open source.
 
-The project page is https://grooveprogramming.github.io/
+The project page/editor is https://grooveprogramming.github.io/editor
 
 Creating custom blocks https://developers.google.com/blockly/guides/create-custom-blocks/overview
 
