@@ -25,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="1552.499"
-     inkscape:cy="717.31653"
+     inkscape:zoom="0.7"
+     inkscape:cx="717.93634"
+     inkscape:cy="427.09137"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="in"
      inkscape:window-width="2339"
      inkscape:window-height="802"
-     inkscape:window-x="680"
-     inkscape:window-y="569"
+     inkscape:window-x="143"
+     inkscape:window-y="346"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -72,7 +72,7 @@
          cy="63.096668"
          cx="9.3626089"
          id="path832"
-         style="opacity:1;fill:#fe0000;fill-opacity:1;fill-rule:evenodd;stroke:#c90000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#0b7ae2;fill-opacity:1;fill-rule:evenodd;stroke:#0964bb;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text851"
          y="72.330215"
@@ -91,7 +91,7 @@
        width="20.178848"
        height="19.109772"
        x="0.0035390346"
-       y="101.94997"
+       y="101.96143"
        ry="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -180,7 +180,7 @@
          cy="63.096668"
          cx="9.3626089"
          id="path832-5"
-         style="opacity:1;fill:#fe0000;fill-opacity:1;fill-rule:evenodd;stroke:#c90000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#c600f0;fill-opacity:1;fill-rule:evenodd;stroke:#a400c9;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text851-2"
          y="72.330215"
@@ -191,7 +191,7 @@
            y="72.330215"
            x="9.791873"
            id="tspan849-0"
-           sodipodi:role="line">Motion</tspan></text>
+           sodipodi:role="line">Looks</tspan></text>
     </g>
     <g
        transform="translate(0.37797619,84.80177)"
@@ -201,7 +201,7 @@
          cy="63.096668"
          cx="9.3626089"
          id="path832-3"
-         style="opacity:1;fill:#fe0000;fill-opacity:1;fill-rule:evenodd;stroke:#c90000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#f600fe;fill-opacity:1;fill-rule:evenodd;stroke:#cf00d6;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text851-7"
          y="72.330215"
@@ -212,7 +212,7 @@
            y="72.330215"
            x="9.791873"
            id="tspan849-7"
-           sodipodi:role="line">Motion</tspan></text>
+           sodipodi:role="line">Sounds</tspan></text>
     </g>
     <g
        transform="translate(0.37797619,103.91155)"
@@ -222,7 +222,7 @@
          cy="63.096668"
          cx="9.3626089"
          id="path832-5-8"
-         style="opacity:1;fill:#fe0000;fill-opacity:1;fill-rule:evenodd;stroke:#c90000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#f2ea00;fill-opacity:1;fill-rule:evenodd;stroke:#cac300;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text851-2-8"
          y="72.330215"
@@ -233,7 +233,7 @@
            y="72.330215"
            x="9.791873"
            id="tspan849-0-7"
-           sodipodi:role="line">Motion</tspan></text>
+           sodipodi:role="line">Events</tspan></text>
     </g>
     <g
        transform="translate(0.37797619,123.02131)"
@@ -243,7 +243,7 @@
          cy="63.096668"
          cx="9.3626089"
          id="path832-2"
-         style="opacity:1;fill:#fe0000;fill-opacity:1;fill-rule:evenodd;stroke:#c90000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#fcc600;fill-opacity:1;fill-rule:evenodd;stroke:#d4a700;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text851-9"
          y="72.330215"
@@ -254,7 +254,7 @@
            y="72.330215"
            x="9.791873"
            id="tspan849-6"
-           sodipodi:role="line">Motion</tspan></text>
+           sodipodi:role="line">Control</tspan></text>
     </g>
     <g
        transform="translate(0.37797619,142.13108)"
@@ -264,7 +264,7 @@
          cy="63.096668"
          cx="9.3626089"
          id="path832-5-9"
-         style="opacity:1;fill:#fe0000;fill-opacity:1;fill-rule:evenodd;stroke:#c90000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#00c7ea;fill-opacity:1;fill-rule:evenodd;stroke:#00a5c2;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text851-2-6"
          y="72.330215"
@@ -275,7 +275,7 @@
            y="72.330215"
            x="9.791873"
            id="tspan849-0-78"
-           sodipodi:role="line">Motion</tspan></text>
+           sodipodi:role="line">Sensing</tspan></text>
     </g>
     <g
        transform="translate(0.37797619,161.24085)"
@@ -285,7 +285,7 @@
          cy="63.096668"
          cx="9.3626089"
          id="path832-3-5"
-         style="opacity:1;fill:#fe0000;fill-opacity:1;fill-rule:evenodd;stroke:#c90000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#06dc00;fill-opacity:1;fill-rule:evenodd;stroke:#05b400;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text851-7-2"
          y="72.330215"
@@ -296,7 +296,7 @@
            y="72.330215"
            x="9.791873"
            id="tspan849-7-4"
-           sodipodi:role="line">Motion</tspan></text>
+           sodipodi:role="line">Operators</tspan></text>
     </g>
     <g
        transform="translate(0.37797619,180.35063)"
@@ -306,7 +306,7 @@
          cy="63.096668"
          cx="9.3626089"
          id="path832-5-8-2"
-         style="opacity:1;fill:#fe0000;fill-opacity:1;fill-rule:evenodd;stroke:#c90000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#fabd00;fill-opacity:1;fill-rule:evenodd;stroke:#c98700;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text851-2-8-9"
          y="72.330215"
@@ -317,7 +317,7 @@
            y="72.330215"
            x="9.791873"
            id="tspan849-0-7-0"
-           sodipodi:role="line">Motion</tspan></text>
+           sodipodi:role="line">Variables</tspan></text>
     </g>
     <g
        transform="translate(0.37797619,199.4604)"
@@ -327,7 +327,7 @@
          cy="63.096668"
          cx="9.3626089"
          id="path832-5-8-2-8"
-         style="opacity:1;fill:#fe0000;fill-opacity:1;fill-rule:evenodd;stroke:#c90000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#ff34ed;fill-opacity:1;fill-rule:evenodd;stroke:#c900b7;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text851-2-8-9-0"
          y="72.330215"
@@ -338,7 +338,7 @@
            y="72.330215"
            x="9.791873"
            id="tspan849-0-7-0-6"
-           sodipodi:role="line">Motion</tspan></text>
+           sodipodi:role="line">Custom</tspan></text>
     </g>
     <text
        xml:space="preserve"
