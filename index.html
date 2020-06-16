@@ -96,10 +96,7 @@
 			</category>
 		</xml>
 		<script>
-			Blockly.getMainWorkspace().deleteVariableById(Blockly.getMainWorkspace().getVariable("my variable").getId())
-			Blockly.getMainWorkspace().createVariable("my variable")
-
-			var workspace = Blockly.inject('blocklyDiv',
+                        var workspace = Blockly.inject('blocklyDiv',
 			{toolbox: document.getElementById('toolbox'),
 			grid: {
 				spacing: 20,
@@ -123,6 +120,9 @@
 					alert(e);
 				}
 			}
+			
+			Blockly.getMainWorkspace().deleteVariableById(Blockly.getMainWorkspace().getVariable("my variable").getId())
+			Blockly.getMainWorkspace().createVariable("my variable")
 		</script>
 	</body>
 </html>  
