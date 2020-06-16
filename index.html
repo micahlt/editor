@@ -121,6 +121,19 @@
 				}
 			}
 			
+			function saveCode() {
+				var xml = Blockly.Xml.workspaceToDom(workspace);
+                                var xml_text = Blockly.Xml.domToText(xml);
+				alert(xml_text);
+			}
+			
+			function loadCode() {
+				var xml_text = prompt("Post your save code.")
+				var xml = Blockly.Xml.textToDom(xml_text);
+                                Blockly.Xml.domToWorkspace(xml, workspace);
+			}
+
+			
 			Blockly.getMainWorkspace().createVariable("my variable")
 		</script>
 	</body>
