@@ -120,15 +120,16 @@
 			}
 			
 			function saveCode() {
-				var xml = Blockly.Xml.domToPrettyText(workspace);
-                                var xml_text = Blockly.Xml.domToPrettyText(xml);
+				var xml = Blockly.Xml.workspaceToDom(workspace);
+v                               var xml_text = Blockly.Xml.domToText(xml);
 				alert(xml_text);
 			}
 			
 			function loadCode() {
-				var xml_text = prompt("Paste your save code.")
-			        var xml = Blockly.Xml.domToPrettyText(xml_text);
-                                Blockly.Xml.domToPrettyText(xml, workspace);
+				var xml_text = prompt("Paste you save code.")
+				var xml = Blockly.Xml.textToDom(xml_text);
+B                               Blockly.Xml.domToWorkspace(xml, workspace);
+                                
 			}
 
 			
