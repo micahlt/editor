@@ -121,14 +121,14 @@
 			
 			function saveCode() {
 				var xml = Blockly.Xml.workspaceToDom(workspace);
-v                               var xml_text = Blockly.Xml.domToText(xml);
+                                var xml_text = Blockly.Xml.domToText(xml);
 				alert(xml_text);
 			}
 			
 			function loadCode() {
 				var xml_text = prompt("Paste you save code.")
 				var xml = Blockly.Xml.textToDom(xml_text);
-B                               Blockly.Xml.domToWorkspace(xml, workspace);
+                                Blockly.Xml.domToWorkspace(xml, workspace);
                                 
 			}
 
